@@ -1,12 +1,13 @@
 <snippet>
     <content><![CDATA[
-describe "${1:suite}", ->
-	$2
+describe("${1:suite}", () => {
+  $2
+});$0
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>des</tabTrigger>
+    <tabTrigger>describe</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.coffee</scope>
+    <scope>source.js, source.ts.unittest</scope>
     <!-- Optional: Description to show in the menu -->
     <description>Describe</description>
 </snippet>

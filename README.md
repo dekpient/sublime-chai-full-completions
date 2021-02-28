@@ -1,29 +1,20 @@
-## Full completions for the Chai Assertion Library
+## Completions and snippets for writing Mocha + Sinon +Chai unit tests
 
-This sublime package will install completions for *bdd* and *tdd*:
-- [*should*](http://chaijs.com/api/bdd/)
-- [*expect*](http://chaijs.com/api/bdd/)
-- [*assert*](http://chaijs.com/api/assert/)
+This sublime package will install completions for:
 
-You can read the [full API for chai syntax](http://chaijs.com/api/).
+- Mocha's test blocks
+- Sinon's mocks and expectations
+- Chai's [*expect*](http://chaijs.com/api/bdd/)
+- Chai's [*should*](http://chaijs.com/api/bdd/) _(Not maintained)_
+- Chai's [*assert*](http://chaijs.com/api/assert/) _(Not maintained)_
 
-The completions work in both Javascript and [CoffeeScript](http://coffeescript.org/).
-
-This package was merged with [pahen's](https://github.com/pahen/) package in Sublime Package Control.
+This package is a fork of [seethroughtrees/sublime-chai-full-completions](https://github.com/seethroughtrees/sublime-chai-full-completions)
 
 ### Installation
-Install with [Sublime Package Control](http://wbond.net/sublime_packages/package_control) if possible.
-- Super + Shift + P
-- Install Package
-- Chai Completions
-
-or without Sublime Package Control:
 
 ```
 cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-git clone git://github.com/seethroughtrees/sublime-chai-full-completions.git
+git clone git://github.com/dekpient/sublime-mocha-sinon-chai-completions.git
 ```
-restart Sublime Text and you're good to go.
 
-
-Improvements and suggestions are welcome...
+Restart Sublime Text and you're good to go.

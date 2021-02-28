@@ -1,0 +1,18 @@
+{
+   "scope": "source.js, source.ts.unittest",
+   "version": "0.10",
+   "completions":
+   [
+    { "trigger": ".expects.never", "contents": "expects(\"${1:fn}\").never();$0"},
+    { "trigger": ".expects.withArgs1.resolves", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1})$0.resolves(${3:res});"},
+    { "trigger": ".expects.withArgs2.resolves", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2})$0.resolves(${4:res});"},
+    { "trigger": ".expects.withArgs3.resolves", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2}, ${4:arg3})$0.resolves(${5:res});"},
+    { "trigger": ".expects.withArgs4.resolves", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})$0.resolves(${6:res});"},
+    { "trigger": ".expects.withArgs1.returns", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1})$0.returns(${3:res});"},
+    { "trigger": ".expects.withArgs2.returns", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2})$0.returns(${4:res});"},
+    { "trigger": ".expects.withArgs3.returns", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2}, ${4:arg3})$0.returns(${5:res});"},
+    { "trigger": ".expects.withArgs4.returns", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2}, \"${4:arg3}\", \"${5:arg4}\")$0.returns(${6:res});"},
+    { "trigger": "sinonmock", "contents": "sinon.mock(${1:value});$0"},
+    { "trigger": "sinonverify", "contents": "sinon.verifyAndRestore();$0"}
+   ]
+}

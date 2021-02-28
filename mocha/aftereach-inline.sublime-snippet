@@ -1,13 +1,11 @@
 <snippet>
     <content><![CDATA[
-describe('${1:suite}', function () {
-	$2
-});$0
+afterEach($1);$0
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>describe</tabTrigger>
+    <tabTrigger>aftereach</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.ts.unittest</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Describe</description>
+    <description>After Each Inline</description>
 </snippet>

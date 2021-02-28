@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-before(function () {
-	$1
+describe("${TM_FILENAME/(\w+)\.test\.js/\1/g}", () => {
+  $1
 });$0
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>before</tabTrigger>
+    <tabTrigger>describefile</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.ts.unittest</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Before</description>
+    <description>Describe File</description>
 </snippet>

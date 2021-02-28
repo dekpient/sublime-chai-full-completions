@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-it('${1:expectation}', function (${2:done}) {
-	$3
-});
+afterEach(() => {
+  $1
+});$0
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>it</tabTrigger>
+    <tabTrigger>aftereach</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.ts.unittest</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>It</description>
+    <description>After Each</description>
 </snippet>

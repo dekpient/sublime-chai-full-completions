@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-beforeEach(function () {
-	$1
-});$0
+it("${1:expectation}", ${2:async} => (${3:done}) {
+  $4
+});
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>beforeeach</tabTrigger>
+    <tabTrigger>it</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.ts.unittest</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Before Each</description>
+    <description>It</description>
 </snippet>

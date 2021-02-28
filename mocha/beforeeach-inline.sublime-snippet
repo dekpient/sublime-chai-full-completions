@@ -1,13 +1,11 @@
 <snippet>
     <content><![CDATA[
-after(function () {
-	$1
-});$0
+beforeEach($1);$0
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>after</tabTrigger>
+    <tabTrigger>beforeeach</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.ts.unittest</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>After</description>
+    <description>Before Each Inline</description>
 </snippet>

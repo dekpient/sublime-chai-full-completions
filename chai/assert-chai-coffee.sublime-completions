@@ -1,5 +1,5 @@
 {
-   "scope": "source.js",
+   "scope": "source.js, source.ts.uniitest",
    "version": "0.10",
    "completions":
    [
