@@ -4,6 +4,11 @@
    "completions":
    [
     { "trigger": ".expects.never", "contents": "expects(\"${1:fn}\").never();$0"},
+    { "trigger": ".expects", "contents": "expects(\"${1:fn}\");$0"},
+    { "trigger": ".expects.withArgs1", "contents": "expects(\"${1:fn}\").withArgs(${2:arg1});$0"},
+    { "trigger": ".expects.withArgs2", "contents": "expects(\"${1:fn}\").withArgs(${2:arg1}, ${3:arg2});$0"},
+    { "trigger": ".expects.withArgs3", "contents": "expects(\"${1:fn}\").withArgs(${2:arg1}, ${3:arg2}, ${4:arg3});$0"},
+    { "trigger": ".expects.withArgs4", "contents": "expects(\"${1:fn}\").withArgs(${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4});$0"},
     { "trigger": ".expects.withArgs1.resolves", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1})$0.resolves(${3:res});"},
     { "trigger": ".expects.withArgs2.resolves", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2})$0.resolves(${4:res});"},
     { "trigger": ".expects.withArgs3.resolves", "contents": "expects(\"${1:fn}\")$0.withArgs(${2:arg1}, ${3:arg2}, ${4:arg3})$0.resolves(${5:res});"},

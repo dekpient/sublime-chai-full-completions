@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-it("${1:expectation}", ${2:async} => (${3:done}) {
+it("${1:expectation}", ${2:async} (${3:done}) => {
   $4
 });
 ]]></content>
